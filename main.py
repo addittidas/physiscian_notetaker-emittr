@@ -184,7 +184,6 @@ def simple_sentiment_intent(patient_utterances: List[str]) -> Dict[str, Any]:
 
     return {"Sentiment": sentiment, "Intent": intent}
 
-# Transformer-based sentiment placeholder (requires model)
 
 def hf_sentiment(text: str, model_name: str = 'nlptown/bert-base-multilingual-uncased-sentiment') -> str:
     classifier = pipeline('sentiment-analysis', model=model_name)
@@ -287,5 +286,3 @@ Physician: You’re very welcome, Ms. Jones. Take care, and don’t hesitate to 
     }
 
     print(json.dumps(result, indent=2))
-
-# End of file
