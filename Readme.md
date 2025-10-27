@@ -29,14 +29,11 @@ pip install transformers sentencepiece torch sklearn
 This script can be run as a standalone Python script or executed cell-by-cell in a Jupyter Notebook. To run the script, execute:
 
 ```bash
-python chat.py
+python main.py
 ```
 
 ## Example
 The script includes a demo using a provided transcript, which showcases the extraction and summarization capabilities.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - [spaCy](https://spacy.io/)
